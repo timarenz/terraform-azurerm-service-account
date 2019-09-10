@@ -1,1 +1,1 @@
-# terraform-azurerm-service-account
+# terraform-azurerm-service-principal

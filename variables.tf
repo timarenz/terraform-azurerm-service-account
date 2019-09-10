@@ -1,5 +1,10 @@
-variable "application_name" {
+variable "name" {
   type = string
+}
+
+variable "skip_role_assignment" {
+  type    = bool
+  default = false
 }
 
 variable "role_name" {
@@ -8,12 +13,11 @@ variable "role_name" {
 }
 
 variable "scope" {
-  type = string
+  type    = string
+  default = null
 }
 
 variable "valid_until" {
   type    = string
   default = "2299-12-30T23:00:00Z" #Forever
 }
-
-
